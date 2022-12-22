@@ -1,8 +1,7 @@
 # Kid Vitals
 This web application is used as a reference for pediatric vital signs based on age group.
 
-**Link to project:** https://kidvitals.netlify.app/
-
+**Link to project:** https://pediatricvitals.netlify.app/
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
