@@ -26,9 +26,8 @@ hr {
   width: 96%;
 }
 
-.info {
+.app-info {
   margin: 5px;
-  /* width: 50%; */
   border: 3px solid #333138;
   border-radius: 1.5%;
   padding: 5px;
@@ -41,7 +40,7 @@ hr {
 /*******************************************/
 /* Media Queries */
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
-  .info{
+  .app-info{
     margin: auto;
     width: 50%;
     border: 3px solid #333138;
@@ -51,7 +50,7 @@ hr {
 }
 
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
-  .info{
+  .app-info {
     margin: auto;
     width: 50%;
     border: 3px solid #333138;
@@ -62,7 +61,7 @@ hr {
 
 
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-  .info{
+  .app-info {
     margin: auto;
     width: 50%;
     border: 3px solid #333138;
