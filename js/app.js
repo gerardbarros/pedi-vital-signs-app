@@ -1,7 +1,7 @@
 async function apiRequest(){
     const age = document.getElementById("age-group").value
     try{
-        const response = await fetch(`https://pedi-vitals-api.cyclic.app/api/${age}`)
+        const response = await fetch(`https://pedi-vital-signs-api.onrender.com/api/${age}`)
         const data = await response.json()
 
         document.querySelector(".heart-rate").innerText = data.heartRate + " bpm"
